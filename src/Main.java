@@ -8,5 +8,5 @@ public class Main {
         int bmiResult = bmiService.calculate(weightKg, heightCm);
         System.out.println("При росте " + heightCm + "см" + " и весе " + weightKg + "кг ваш индекс массы тела : " + bmiResult);
 
-        }
     }
+}
